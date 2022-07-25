@@ -31,12 +31,12 @@
     <repository>
       <id>nexus</id>
       <name>cardapp-release</name>
-      <url>http://localhost:8081/repository/cardapp-releases</url>
+      <url>http://localhost:8081/repository/mvn-releases</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>cardapp-snapshot</name>
-      <url>http://localhost:8081/repository/cardapp-snapshots</url>
+      <url>http://localhost:8081/repository/mvn-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
