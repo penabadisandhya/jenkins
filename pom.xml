@@ -30,13 +30,13 @@
 <distributionManagement>
     <repository>
       <id>nexus</id>
-      <name>cardapp-release</name>
-      <url>http://localhost:8081/repository/mvn-releases</url>
+      <name>cardapprelease</name>
+      <url>http://localhost:8081/repository/cardapprelease</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
-      <name>cardapp-snapshot</name>
-      <url>http://localhost:8081/repository/mvn-snapshots</url>
+      <name>cardappsnapshot</name>
+      <url>http://localhost:8081/repository/cardappsnapshot</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
